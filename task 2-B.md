@@ -9,4 +9,11 @@ we could use celery & rabidMQ to handle the multiple messages at the same time a
 
 In any case the best option is always to train our models asynchronously and the post the inference results using the
 
-aforementioned method and show those results via rest calls.
+aforementioned method and show those results via rest calls. (figure task2b.png)
+
+
+*Apache Spark*
+
+Of course another solution is to utilize apache spark on our architecture in case we have big data. Using that kind of
+
+architecture we could take advantage of the offered parallelism and produce fast results real-time.
