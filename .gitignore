@@ -1,4 +1,4 @@
-.ipynb_checkpoints/*
+src/.ipynb_checkpoints
 bin/
 etc/
 lib/
